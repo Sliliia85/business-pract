@@ -3,3 +3,346 @@
 *::after {
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+/*#region header*/
+
+.header {}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+}
+
+.nav-header {
+    display: flex;
+    gap: 237px;
+}
+
+.logo-header {
+    display: flex;
+    font-weight: 700;
+        font-size: 30px;
+        line-height: 0.93;
+        color: #173a56;
+        gap: 16px;
+        align-items: center;
+}
+
+.logo-image-header {}
+
+.list-header {
+    display: flex;
+    gap: 30px;
+    margin-right: 73px;
+}
+
+.item-header {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #22343d;
+}
+.item-header-one .link-header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.link-header {
+   padding-top: 26px;
+   padding-bottom: 26px;
+   display: block;
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.list-button-header {
+    display: flex;
+    gap: 21px;
+}
+
+.item-link-header {
+    padding-top: 19px;
+        padding-bottom: 19px;
+}
+
+.button-header-one {
+    width: 105px;
+    height: 42px;
+    font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #173a56;
+        border: 1px solid #bcd0e5;
+            border-radius: 4px;
+           
+}
+.button-header-two {
+    width: 113px;
+    height: 42px;
+    font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+        background-color: #02897a;
+       
+}
+
+/*#endregion header*/
+
+/*#region work*/
+
+.work {}
+
+.work-container {
+    display: flex;
+}
+.work-container-one {
+    
+}
+
+.work-button-list {
+    display: flex;
+}
+
+.work-title {}
+
+.work-text {}
+
+.work-image {}
+
+.work-button {}
+
+/*#endregion work*/
+
+/*#region product*/
+
+.product {}
+
+.product-container {}
+
+.product-title {}
+
+.product-list {}
+
+.product-item {}
+
+.product-title-item {}
+
+.product-text {}
+
+/*#endregion product*/
+
+/*#region management*/
+
+.management {}
+
+.management-container {}
+
+.management-title {}
+
+.management-text {}
+
+.management-image {}
+
+.management-list {}
+
+.management-item {}
+
+.management-title-item {}
+
+.management-text-item {}
+
+/*#endregion menagement*/
+
+/*#region customer*/
+
+.customer {}
+
+.customer-container {}
+
+.customer-title {}
+
+.customer-text {}
+
+.customer-image {}
+
+.customer-list {}
+
+.customer-item {}
+
+.customer-text-item {}
+
+/*#endregion customer*/
+
+/*#region collaborative*/
+
+.collaborative {}
+
+.collaborative-container {}
+
+.collaborative-title {}
+
+.collaborative-text {}
+
+.collaborative-image {}
+
+.collaborative-list {}
+
+.collaborative-item {}
+
+.collaborative-title-item {}
+
+.collaborative-text-item {}
+
+/*#endregion collaborative*/
+
+/*#region process*/ 
+
+.process {}
+
+.process-title {}
+
+.process-text {}
+
+.process-list {}
+
+.process-item {}
+
+.process-image {}
+
+.process-text-item {}
+
+ /*#endregion process*/
+
+ /*#region strategies*/
+
+.Strategies {}
+
+.Strategies-container {}
+
+.Strategies-title {}
+
+.Strategies-text {}
+
+.Strategies-list {}
+
+.Strategies-item {}
+
+.Strategies-image {}
+
+.Strategies-text-item {}
+
+.Strategies-title-item {}
+
+/*#endregion strategies*/
+
+/*#region price*/ 
+
+.price {}
+
+.price-container {}
+
+.price-title {}
+
+.price-text {}
+
+.price-list {}
+
+.price-item {}
+
+.price-title-item {}
+
+.price-text-item {}
+
+.bottom-price {}
+
+/*#endregion price*/
+
+/*#region clients*/ 
+
+.clients {}
+
+.clients-container {}
+
+.clients-title {}
+
+.clients-text {}
+
+.clients-list {}
+
+.clients-item {}
+
+.clientsimage {}
+
+.clients-text-item {}
+
+.clients-title-item {}
+
+/*#endregion clients*/ 
+
+/*#region join*/ 
+
+.join {}
+
+.join-container {}
+
+.join-title {}
+
+.join-image {}
+
+.bottom {}
+
+/*#endregion join*/
+
+/*#region footer*/
+
+.footer {}
+
+.footer-container {}
+
+.link-footer {}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-title {}
+
+.footer-link-item {}
+
+.footer-text {}
+
+ /*#endregion footer*/
