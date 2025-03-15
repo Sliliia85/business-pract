@@ -138,6 +138,301 @@ button {
 
 /*#endregion header*/
 
+/*#region price*/
+
+.price {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 24px;
+}
+
+.price-title-one {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+   
+}
+
+.price-title {
+font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+}
+
+
+.price-text {
+font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.price-list {
+    display: flex;
+    gap: 72px;
+
+}
+
+.price-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.price-item {
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding: 32px 72px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-item-two {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #02897a;
+    color: #ffffff;
+}
+
+.price-item-two>.price-title-item {
+    color: #fff;
+}
+
+.price-item-two>.price-title-item {
+    color: #fff;
+}
+
+.price-item-two>.price-text-item-one {
+    color: #fff;
+}
+
+.price-item-two {
+    color: #fff;
+}
+
+.price-item-two>.bottom-price {
+    background-color: #fff;
+    color: #02897a;
+}
+
+.price-text-item-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-title-item {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.price-text-item-one {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+}
+
+.div-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-text-item-two {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.list-price {
+    color: #fff;
+}
+
+.span-one {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+    font-family: "Montserrat", sans-serif;
+}
+
+.span-two {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bottom-price {
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background-color: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    padding: 11px 18px;
+}
+
+.price-span {
+    color: #fff;
+}
+
+/*#endregion price*/
+
+/*#region enterprise*/
+.enterprise {
+    margin: 150px auto;
+}
+
+.enterprise-container {
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    background-color: #02897a;
+    display: flex;
+
+}
+
+.enterprise-div {
+    padding: 49px 0 56px 51px;
+}
+
+.enterprise-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    width: 510px;
+    margin-bottom: 59px;
+}
+
+.enterprise-bnt {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.enterprise-img {
+    padding: 10px;
+    width: 361px;
+    height: 341px;
+}
+
+/*#endregion enterprise*/
+
+/*#region enterprise two*/
+
+.enterprise-two {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterprise-two-text {
+    margin-bottom: 16px;
+    font-weight: 600;
+        font-size: 24px;
+        color: #22343d;
+}
+
+.enterprise-two-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+        font-size: 34px;
+        color: #22343d;
+}
+
+.entr-two-text {
+    margin-bottom: 32px;
+    font-weight: 400;
+        font-size: 18px;
+        color: #22343d;
+}
+
+.enterprise-two-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 8px;
+            width: 224px;
+            height: 44px;
+            background-color: #02897a;
+}
+
+
+/*#endregion enterprise two*/
+
+/*#region product*/
+
+.product {}
+
+.product-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.product-title {
+    font-weight: 700;
+        font-size: 34px;
+        color: #22343d;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.product-img {}
+
+.product-list {}
+
+.product-item {}
+
+.product-list-img {}
+
+.product-item-title {}
+
+.product-list-text {}
+
+/*#endregion product*/
+
+/*#region question*/
+
+
+/*#endregion question*/
+
 /*#region footer*/
 
 .footer {}

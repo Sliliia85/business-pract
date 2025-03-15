@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
         integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/customers.css">
+    <link rel="stylesheet" href="./css/pricing.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,8 +24,8 @@
                         alt="logo">Product</a>
                 <ul class="list-header">
                     <li class="item-header"><a class="link-header" href="./index.html" alt="">Product</a></li>
-                    <li class="item-header-one"><a class="link-header" href="./customers.html" alt="">Customers</a></li>
-                    <li class="item-header"><a class="link-header" href="./pricing.html" alt="">Pricing</a></li>
+                    <li class="item-header"><a class="link-header" href="./customers.html" alt="">Customers</a></li>
+                    <li class="item-header-one"><a class="link-header" href="./pricing.html" alt="">Pricing</a></li>
                     <li class="item-header"><a class="link-header" href="./resourses.html" alt="">Resources</a></li>
                 </ul>
             </nav>
@@ -36,67 +36,130 @@
         </div>
     </header>
     <main>
-        <section>
-            <p>PRICING</p>
-        <h2>Let’s get some real work done here.</h2>
-        <p>Prodict is your perfect solution for working. Get started now for free</p>
-        <ul>
-            <li>
-                <h3>Free</h3>
-                <p>Brief price description</p>
-                <p>0$ Per / month</p>
-                <p>Only 2 Operators</p>
-                <p>Notifications</p>
-                <p>Landing Pages</p>
-                <bottom type="bottom">Order Now</bottom>
-            </li>
-            <li>
-                <h3>Standard</h3>
-                <p>Brief price description</p>
-                <p>5$ Per / month</p>
-                <p>5+ Operators</p>
-                <p>Notifications</p>
-                <p>Landing Pages</p>
-                <bottom type="bottom">Order Now</bottom>
-            </li>
-            <li>
-                <h3>Premium</h3>
-                <p>Brief price description</p>
-                <p>10$ Per / month</p>
-                <p>10+ Operators</p>
-                <p>Notifications</p>
-                <p>Landing Pages</p>
-                <bottom type="bottom">Order Now</bottom>
-            </li>
-        </ul>
+    <!-- #region Price Table-->
+    
+    <section class="price">
+        <div class="container price-container">
+            <h3 class="price-title-one">Pricing</h3>
+            <h2 class="price-title">Let’s get some real work done here.</h2>
+            <p class="price-text">Prodict is your perfect solution for working. Get started now for free</p>
+            <ul class="price-list">
+                <li class="price-item">
+                    <h3 class="price-title-item">Free</h3>
+                    <p class="price-text-item-one">Brief price description</p>
+                    <div class="div-price">
+                        <p class="span-one">0</p>
+                        <div class="div-price-sec">
+                            <p class="span-two">$</p>
+                            <p class="price-text-item-two">Per / month</p>
+                        </div>
+                    </div>
+                    <ul class="price-list-item">
+                        <li>
+                            <p class="price-text-item-list">Only 2 Operators</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list">Notifications</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list">Landing Pages</p>
+                        </li>
+    
+                    </ul>
+                    <bottom class="bottom-price" type="bottom">Order Now</bottom>
+                </li>
+                <li class="price-item price-item-two">
+                    <h3 class="price-title-item">Standard</h3>
+                    <p class="price-text-item-one">Brief price description</p>
+                    <div class="div-price">
+                        <p class="span-one price-span">5</p>
+                        <div class="div-price-sec">
+                            <p class="span-two price-span">$</p>
+                            <p class="price-text-item-two price-span">Per / month</p>
+                        </div>
+                    </div>
+                    <ul class="price-list-item">
+                        <li>
+                            <p class="price-text-item-list list-price">5+ Operators</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list list-price">Notifications</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list list-price">Landing Pages</p>
+                        </li>
+    
+                    </ul>
+                    <bottom class="bottom-price" type="bottom">Order Now</bottom>
+                </li>
+                <li class="price-item">
+                    <h3 class="price-title-item">Premium</h3>
+                    <p class="price-text-item-one">Brief price description</p>
+                    <div class="div-price">
+                        <p class="span-one">10</p>
+                        <div class="div-price-sec">
+                            <p class="span-two">$</p>
+                            <p class="price-text-item-two">Per / month</p>
+                        </div>
+                    </div>
+                    <ul class="price-list-item">
+                        <li>
+                            <p class="price-text-item-list">10+ Operators</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list">Notifications</p>
+                        </li>
+                        <li>
+                            <p class="price-text-item-list">Landing Pages</p>
+                        </li>
+    
+                    </ul>
+                    <bottom class="bottom-price" type="bottom">Order Now</bottom>
+                </li>
+            </ul>
+        </div>
     </section>
-    <section>
-        <p>ENTERPRISE</p>
-        <h2>Are you interested in a custom-tailored plan?</h2>
-        <p>Product is a set of advanced features for really large teams with projects.</p>
-        <button type="button">Get in touch with us</button>
+    
+    <!-- #endregion Price Table -->
+<!-- #region enterprise two-->
+
+    <section class="enterprise-two">
+        <p class="enterprise-two-text">ENTERPRISE</p>
+        <h2 class="enterprise-two-title">Are you interested in a custom-tailored plan?</h2>
+        <p class="entr-two-text">Product is a set of advanced features for really large teams with projects.</p>
+        <button class="enterprise-two-btn" type="button">Get in touch with us</button>
     </section>
-    <section>
-        <h2>Product is being used with great effects alongside:</h2>
-        <img src="images/amico.png" alt="amico">
-        <ul>
-            <li>
-                <img src="images/Feature Icon with circle-2.png" alt="features">
-                <h3>Enterpreneur</h3>
-                <p>Product is a great way to help medium and samall enterprise owners achieve their goals</p>
-            </li>
-            <li>
-                <img src="images/Feature Icon with circle.png" alt="features1">
-                <h3>Accountants</h3>
-                <p>Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
-            </li>
-            <li>
-                <img src="images/Feature Icon with circle-1.png" alt="features2">
-                <h3>Universities</h3>
-                <p>Organize university projects and have documents easily graded online with Product</p>
-            </li>
-        </ul>
+
+    <!-- #endregion enterprise two-->
+
+    <!-- #region product-->
+
+    <section class="product">
+       <div class="container product-container">
+            <h2 class="product-title">Product is being used with great effects alongside:</h2>
+            <img class="product-img" src="images/amico.png" alt="amico">
+            <ul class="product-list">
+                <li class="product-item">
+                    <img class="product-list-img" src="images/Feature Icon with circle-2.png" alt="features">
+                    <h3 class="product-item-title">Enterpreneur</h3>
+                    <p class="product-list-text">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+                </li>
+                <li class="product-item">
+                    <img class="product-list-img" src="images/Feature Icon with circle.png" alt="features1">
+                    <h3 class="product-item-title">Accountants</h3>
+                    <p class="product-list-text">Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
+                </li>
+                <li class="product-item">
+                    <img class="product-list-img" src="images/Feature Icon with circle-1.png" alt="features2">
+                    <h3 class="product-item-title">Universities</h3>
+                    <p class="product-list-text">Organize university projects and have documents easily graded online with Product</p>
+                </li>
+            </ul>
+       </div class="container product-container">>
     </section>
+    <!-- #endregion product-->
+
+    <!-- #region question-->
     <section>
         <h2>Frequently asked question</h2>
         <p>Something is not clear? You need help? Check our FAQ section</p>
@@ -122,13 +185,23 @@
             </li>
         </ul>
     </section>
-        <section>
-            <div>
-                <h2>Join 100 Compannies who boost their business with Product</h2>
-                <button type="button">Get This</button>
-                <img src="images/graphics.png" alt="graphics">
+
+    <!-- #endregion question-->
+
+    <!--#region section enterprise  -->
+
+    <section class="enterprise">
+        <div class="enterprise-container container">
+            <div class="enterprise-div">
+                <h2 class="enterprise-title">Join 100 Compannies who boost their business with Product</h2>
+                <button class="enterprise-bnt" type="button">Get This</button>
             </div>
-        </section>
+            <img class="enterprise-img" src="images/graphics.png" alt="graphics">
+        </div>
+    </section>
+
+    <!--#endregion section enterprise  -->
+
     </main>
     <footer class="footer">
         <div class="container footer-container">
